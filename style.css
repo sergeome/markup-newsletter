@@ -1,4 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,300);
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
 body {
     background-image: url("background.jpg");
 }
@@ -12,29 +19,25 @@ p {
 	background-color: white;
 	width: 730px;
 	height: 1075px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 170px;
-	margin-bottom: 170px;
-	padding-bottom: 100px;
+	margin: 30px auto;
 }
 
 .mainblock .topmenu{
-	width: 100%;
 	float: left;
-	background: red;
+	width: 100%;	
+	/*background: red;*/
 }
 
 .mainblock .topmenu .left-top-link{
 	float: left;
-	padding-top: 35px;
-	padding-left: 35px;	
-	background: green;
+	padding: 35px;
+	/*background: green;*/
+	margin: 0 auto;
+	
 }
 
 .mainblock .topmenu  .right-top-link{
 	float: right;
-	padding-top: 35px;
-	padding-right: 35px;
-	background: yellow;
+	padding: 35px;
+	/*background: yellow;*/
 }
