@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,300);
+body {
+    background-image: url("background.jpg");
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+	color: #606060;
+}
+
+.mainblock {
+	background-color: white;
+	width: 730px;
+	height: 1075px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 170px;
+	margin-bottom: 170px;
+	padding-bottom: 100px;
+}
+
+.mainblock .topmenu{
+	width: 100%;
+	float: left;
+	background: red;
+}
+
+.mainblock .topmenu .left-top-link{
+	float: left;
+	padding-top: 35px;
+	padding-left: 35px;	
+	background: green;
+}
+
+.mainblock .topmenu  .right-top-link{
+	float: right;
+	padding-top: 35px;
+	padding-right: 35px;
+	background: yellow;
+}
