@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("background.jpg");
+    background-image: url("img/background.jpg");
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -80,7 +80,7 @@ p {
 	padding: 12px 0;
 	color: #606060;
 	font-size: 13px;
-	background-image: url(shape.png);
+	background-image: url(img/shape.png);
 	background-repeat: no-repeat;
 	background-position: 0px center; 
     padding-left: 10px;
