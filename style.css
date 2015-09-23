@@ -8,24 +8,22 @@
 
 body {
     background-image: url("background.jpg");
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
 	color: #474747;
 	font-size: 36px;
 	font-weight: 500;
 }
 
 h2 {
-	font-family: 'Roboto', sans-serif;
 	color: #474747;
 	font-size: 17px;
 	font-weight: 400;
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
 	color: #474747;
 	font-size: 15px;
 	font-weight: 300;
@@ -33,7 +31,6 @@ h3 {
 }
 
 h4 {
-	font-family: 'Roboto', sans-serif;
 	color: #474747;
 	font-size: 14px;
 	font-weight: 300;
@@ -42,7 +39,6 @@ h4 {
 
 strong, b{
 	font-weight: 500;
-	font-family: font-family: 'Roboto', sans-serif;
 }
 
 /* unvisited link */
@@ -59,7 +55,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #0077bc;
+    color: red;
 	font-weight: 400;
 }
 
@@ -70,20 +66,18 @@ a:active {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-	color: #606060;
+    color: #606060;
 }
 
 ul#menu {
+	margin: 5px 0 0 0;
     padding: 0px;
-    margin: 0px;
 	list-style: none;
 }
 
 ul#menu li {
     border-bottom: 1px solid #e0e0e0;
 	padding: 12px 0;
-	font-family: 'Roboto', sans-serif;
 	color: #606060;
 	font-size: 13px;
 	background-image: url(shape.png);
@@ -99,13 +93,13 @@ ul#menu li {
 	padding: 0 0 30px 0;
 }
 
-.mainblock .topmenu{
+.mainblock .header{
 	float: left;
 	width: 100%;	
 	/*background: red;*/
 }
 
-.mainblock .topmenu .left-top-link{
+.mainblock .header .left-top-link{
 	float: left;
 	padding: 35px;
 	/*background: green;*/
@@ -113,7 +107,7 @@ ul#menu li {
 	
 }
 
-.mainblock .topmenu  .right-top-link{
+.mainblock .header  .right-top-link{
 	float: right;
 	padding: 35px;
 	/*background: yellow;*/
@@ -123,28 +117,20 @@ ul#menu li {
 	margin: 0 30px 0 30px;
 }
 
-.mainblock .content .first-block{
+.mainblock .content .title{
 	margin: 20px 0 0;
 }
 
-.mainblock .content .second-block{
+.mainblock .content .description{
 	margin: 30px 0 0;
 }
 
-.mainblock .content .third-block{
+.mainblock .content .content{
 	margin: 30px 0 0;
 }
 
-.mainblock .content .fourth-block{
+.mainblock .content .list-title{
 	margin: 30px 0 0;
-}
-
-.mainblock .content .last-block{
-	margin: 30px 0 0;
-}
-
-.mainblock .content .the-list{
-	margin: 5px 0 0 0;
 }
 
 .mainblock .content .button{
@@ -153,4 +139,17 @@ ul#menu li {
 	width: 125px;
 	background: #0077bb;
 	text-align: center;
+}
+
+.mainblock .content .button:hover{
+	margin: 30px 0 0 0;
+	height: 40px;
+	width: 125px;
+	background: red;
+	text-align: center;
+	-webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
