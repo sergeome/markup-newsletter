@@ -91,6 +91,9 @@ p {
 	width: 730px;
 	margin: 30px auto;
 	padding: 0 0 30px 0;
+	-moz-box-shadow: 3px 3px 3px #474747;
+	-webkit-box-shadow: 3px 3px 3px #474747;
+	box-shadow: 3px 3px 3px #474747;
 }
 
 .mainblock .header{
