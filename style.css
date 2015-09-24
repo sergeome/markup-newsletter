@@ -6,9 +6,14 @@
   padding: 0;
 }
 
+border-image{
+  margin: 0;
+  padding: 0;
+}
+
 body {
     background-image: url("img/background.jpg");
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 }
 
 h1 {
@@ -102,7 +107,7 @@ p {
 	/*background: red;*/
 }
 
-.mainblock .header .left-top-link{
+.mainblock .header .header-left{
 	float: left;
 	padding: 35px;
 	/*background: green;*/
@@ -110,7 +115,7 @@ p {
 	
 }
 
-.mainblock .header  .right-top-link{
+.mainblock .header .header-right{
 	float: right;
 	padding: 35px;
 	/*background: yellow;*/
@@ -128,7 +133,7 @@ p {
 	margin: 30px 0 0;
 }
 
-.mainblock .content .content{
+.mainblock .content .inscription{
 	margin: 30px 0 0;
 }
 
