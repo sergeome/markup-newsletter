@@ -6,13 +6,17 @@
   padding: 0;
 }
 
+img {
+  border:0;
+}
+
 border-image{
   margin: 0;
   padding: 0;
 }
 
 body {
-    background-image: url("img/background.jpg");
+    background: url("img/background.jpg") no-repeat 0px center;
 	font-family: 'Roboto', Arial, sans-serif;
 }
 
@@ -98,13 +102,11 @@ p {
 .mainblock .header{
 	float: left;
 	width: 100%;	
-	/*background: red;*/
 }
 
 .mainblock .header .header-left{
 	float: left;
 	padding: 35px;
-	/*background: green;*/
 	margin: 0 auto;
 	
 }
@@ -120,7 +122,7 @@ p {
 	margin: 0 30px 0 30px;
 }
 
-.mainblock .content .title{
+.mainblock .content .intro{
 	margin: 20px 0 0;
 }
 
@@ -132,9 +134,8 @@ p {
 	margin: 30px 0 0;
 }
 
-.mainblock .content .list-title{
-	margin: 30px 0 0;
-    color: #0077bc;
+.list-title{
+	 color: #0077bc;
 }
 
 .button{
