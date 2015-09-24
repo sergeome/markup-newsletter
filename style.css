@@ -6,73 +6,60 @@
   padding: 0;
 }
 
+img {
+  border:0;
+}
+
 border-image{
   margin: 0;
   padding: 0;
 }
 
 body {
-    background-image: url("img/background.jpg");
+    background: url("img/background.jpg") no-repeat 0px center;
 	font-family: 'Roboto', Arial, sans-serif;
+    color: #474747;
 }
 
-h1 {
-	color: #474747;
-	font-size: 36px;
-	font-weight: 500;
+a:visited {     
+	font-weight: 400;    
 }
 
-h2 {
-	color: #474747;
-	font-size: 17px;
-	font-weight: 400;
-}
-
-h3 {
-	color: #474747;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 25px;
-}
-
-h4 {
-	color: #474747;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 25px;
-}
-
-strong, b{
-	font-weight: 500;
-}
-
-/* unvisited link */
-
-a {
-    color: #0077bc;
-	font-weight: 400;
-}
-
-/* visited link */
-a:visited {
-    color: #0077bc;
-	font-weight: 400;
-}
-
-/* mouse over link */
 a:hover {
     color: red;
 	font-weight: 400;
 }
 
-/* selected link */
-a:active {
+p {
+    font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 500;
+    color: #606060
+}
+
+h2 {
+	font-size: 17px;
+	font-weight: 400;
+}
+
+strong, b {
+	font-weight: 500;
+}
+
+
+a {
+    text-decoration: none;
     color: #0077bc;
 	font-weight: 400;
 }
 
-p {
-    color: #606060;
+.underlined {
+    text-decoration: underline;
 }
 
 #menu {
@@ -94,73 +81,71 @@ p {
 
 .mainblock {
 	background-color: white;
-	width: 730px;
+	width: 731px;
 	margin: 30px auto;
 	padding: 0 0 30px 0;
-	-moz-box-shadow: 3px 3px 3px #474747;
-	-webkit-box-shadow: 3px 3px 3px #474747;
-	box-shadow: 3px 3px 3px #474747;
+    -moz-box-shadow: 0 0 10px #000000;
+	-webkit-box-shadow: 0 0 10px #000000;
+	box-shadow: 0 0 10px #000000;
 }
 
-.mainblock .header{
+.mainblock .header {
 	float: left;
 	width: 100%;	
-	/*background: red;*/
 }
 
-.mainblock .header .header-left{
+.mainblock .header .header-left {
 	float: left;
 	padding: 35px;
-	/*background: green;*/
 	margin: 0 auto;
 	
 }
 
-.mainblock .header .header-right{
+.mainblock .header .header-right {
 	float: right;
 	padding: 35px;
-	/*background: yellow;*/
 }
 
 .mainblock .content {
 	margin: 0 30px 0 30px;
 }
 
-.mainblock .content .title{
+.mainblock .content .intro {
 	margin: 20px 0 0;
 }
 
-.mainblock .content .description{
+.mainblock .content .description {
 	margin: 30px 0 0;
 }
 
-.mainblock .content .inscription{
+.mainblock .content .inscription {
 	margin: 30px 0 0;
 }
 
-.mainblock .content .list-title{
-	margin: 30px 0 0;
+.list-title {
+    color: #0077bc;
+	font-weight: 400;
+    font-size: 15px;
 }
 
-.mainblock .content .button{
-    
+.button {
     display: block;
 	margin: 30px 0 0 0;
-	height: 40px;
+	height: 30px;
 	width: 125px;
 	background: #0077bb;
 	text-align: center;
+    color: white;
+    padding: 10px 0 0 0;
 }
 
-.mainblock .content .button:hover{
-	margin: 30px 0 0 0;
-	height: 40px;
+.button:hover {
+    display: block;
+    color: white;
+    margin: 30px 0 0 0;
+	height: 30px;
 	width: 125px;
+    padding: 10px 0 0 0;
 	background: red;
 	text-align: center;
-	-webkit-transition: all 0.7s ease;
-    -moz-transition: all 0.7s ease;
-    -o-transition: all 0.7s ease;
-    -ms-transition: all 0.7s ease;
-    transition: all 0.7s ease;
 }
