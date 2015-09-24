@@ -46,7 +46,8 @@ strong, b{
 	font-weight: 500;
 }
 
-a {
+/* unvisited link */
+a:link {
     color: #0077bc;
 	font-weight: 400;
 }
@@ -60,6 +61,12 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: red;
+	font-weight: 400;
+}
+
+/* selected link */
+a:active {
+    color: #0077bc;
 	font-weight: 400;
 }
 
@@ -134,24 +141,19 @@ p {
 	margin: 30px 0 0;
 }
 
-.button{
-    color: white;
-    display: block;
+.mainblock .content .button{
 	margin: 30px 0 0 0;
 	height: 40px;
 	width: 125px;
 	background: #0077bb;
 	text-align: center;
-    text-decoration: none;
-    padding: 10px 0 0 0;
 }
 
-
-.button:hover{
+.mainblock .content .button:hover{
 	margin: 30px 0 0 0;
 	height: 40px;
 	width: 125px;
-	/*background: red;*/
+	background: red;
 	text-align: center;
 	-webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
