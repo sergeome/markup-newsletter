@@ -21,6 +21,12 @@ body {
     color: #474747;
 }
 
+a {
+    text-decoration: none;
+    color: #0077bc;
+	font-weight: 400;
+}
+
 a:visited {     
 	font-weight: 400;    
 }
@@ -28,6 +34,10 @@ a:visited {
 a:hover {
     color: red;
 	font-weight: 400;
+}
+
+.underlined {
+    text-decoration: underline;
 }
 
 p {
@@ -49,17 +59,6 @@ h2 {
 
 strong, b {
 	font-weight: 500;
-}
-
-
-a {
-    text-decoration: none;
-    color: #0077bc;
-	font-weight: 400;
-}
-
-.underlined {
-    text-decoration: underline;
 }
 
 #menu {
