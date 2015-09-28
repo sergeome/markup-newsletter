@@ -14,11 +14,6 @@ img:hover {
     opacity: 0.8;
 }
 
-border-image{
-  margin: 0;
-  padding: 0;
-}
-
 body {
     background: url("img/background.jpg") no-repeat 0px center;
 	font-family: 'Roboto', Arial, sans-serif;
@@ -79,9 +74,7 @@ strong, b {
 	padding: 12px 0 12px 10px;
 	color: #606060;
 	font-size: 13px;
-	background-image: url(img/shape.png); 
-	background-repeat: no-repeat;
-	background-position: 0px center; 
+	background: url(img/shape.png) no-repeat 0px center; 
 }
 
 .mainblock {
