@@ -7,7 +7,7 @@
 }
 
 img {
-  border:0;
+  border: 0;
 }
 
 border-image{
@@ -22,28 +22,24 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #0077bc;
 	font-weight: 400;
 }
 
-a:visited {     
-	font-weight: 400;    
-}
-
 a:hover {
     color: red;
-	font-weight: 400;
 }
 
-.underlined {
-    text-decoration: underline;
+.nounderlined {
+    text-decoration: none;
 }
 
 p {
     font-size: 14px;
 	font-weight: 300;
 	line-height: 25px;
+    margin: 20px 0 0;
 }
 
 h1 {
@@ -55,6 +51,13 @@ h1 {
 h2 {
 	font-size: 17px;
 	font-weight: 400;
+}
+
+h3 {
+    color: #0077bc;
+	font-weight: 400;
+    font-size: 15px;
+    margin: 30px 0 10px;
 }
 
 strong, b {
@@ -69,13 +72,12 @@ strong, b {
 
 #menu li {
     border-bottom: 1px solid #e0e0e0;
-	padding: 12px 0;
+	padding: 12px 0 12px 10px;
 	color: #606060;
 	font-size: 13px;
-	background-image: url(img/shape.png);
+	background-image: url(img/shape.png); 
 	background-repeat: no-repeat;
 	background-position: 0px center; 
-    padding-left: 10px;
 }
 
 .mainblock {
@@ -91,6 +93,7 @@ strong, b {
 .mainblock .header {
 	float: left;
 	width: 100%;	
+    text-decoration: none;
 }
 
 .mainblock .header .header-left {
@@ -103,6 +106,10 @@ strong, b {
 .mainblock .header .header-right {
 	float: right;
 	padding: 35px;
+}
+
+.slider {
+    padding: 115px 0 0px;    
 }
 
 .mainblock .content {
@@ -121,14 +128,9 @@ strong, b {
 	margin: 30px 0 0;
 }
 
-.list-title {
-    color: #0077bc;
-	font-weight: 400;
-    font-size: 15px;
-}
-
 .button {
-    display: block;
+    display: inline-block;
+    border: 5 px solid #0077bb;
 	margin: 30px 0 0 0;
 	height: 30px;
 	width: 125px;
@@ -136,10 +138,12 @@ strong, b {
 	text-align: center;
     color: white;
     padding: 10px 0 0 0;
+    text-decoration: none;
 }
 
 .button:hover {
-    display: block;
+    display: inline-block;
+    border: 20 px solid #0077bb;
     color: white;
     margin: 30px 0 0 0;
 	height: 30px;
@@ -147,4 +151,5 @@ strong, b {
     padding: 10px 0 0 0;
 	background: red;
 	text-align: center;
+    text-decoration: none;
 }
