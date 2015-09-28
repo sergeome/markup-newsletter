@@ -10,6 +10,10 @@ img {
   border: 0;
 }
 
+img:hover {
+    opacity: 0.8;
+}
+
 border-image{
   margin: 0;
   padding: 0;
@@ -109,7 +113,7 @@ strong, b {
 }
 
 .slider {
-    padding: 115px 0 0px;    
+    padding: 115px 0 0px;
 }
 
 .mainblock .content {
@@ -120,35 +124,21 @@ strong, b {
 	margin: 20px 0 0;
 }
 
-.mainblock .content .description {
-	margin: 30px 0 0;
-}
-
-.mainblock .content .inscription {
-	margin: 30px 0 0;
-}
-
 .button {
     display: inline-block;
-    border: 5 px solid #0077bb;
 	margin: 30px 0 0 0;
-	height: 30px;
-	width: 125px;
 	background: #0077bb;
 	text-align: center;
     color: white;
-    padding: 10px 0 0 0;
+    padding: 10px 30px;
     text-decoration: none;
 }
 
 .button:hover {
     display: inline-block;
-    border: 20 px solid #0077bb;
     color: white;
     margin: 30px 0 0 0;
-	height: 30px;
-	width: 125px;
-    padding: 10px 0 0 0;
+    padding: 10px 30px;
 	background: red;
 	text-align: center;
     text-decoration: none;
